@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Firebase local state and logs
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+functions/.runtimeconfig.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor files
+.idea/
+.vscode/
+
+# Repository Context
+## This repository is a fork of a manager/team repository. Existing files may be demos, experiments, or reference materials; their presence alone does not make them assigned production work.
+## `docs/` is a local workspace for analysis notes created by the user and AI agents. It is not product documentation and must not be included in commits or pushed to the fork.
+docs/
